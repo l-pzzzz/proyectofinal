@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Tienda de Snacks</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Logo" class="logo-img">
+            </a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul class="navbar">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="images/car.svg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Explora Nuestros Productos</span>
+                <h1>¡Encuentra tus snacks favoritos!</h1>
+                <p>
+                    Descubre nuestra amplia variedad de productos. Desde los snacks más populares hasta las últimas novedades en golosinas. ¡Hay algo para todos los gustos!
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="products container">
+        <h2>Productos</h2>
+        <div class="box-container" id="lista-1">
+            <!-- Productos -->
+            <div class="box">
+                <img src="images/pr1.png" alt="Chocolates Premium">
+                <div class="product-txt">
+                    <h3>Chocolates Premium</h3>
+                    <p>Deliciosos chocolates artesanales</p>
+                    <p class="precio">5$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr2.png" alt="Galletas Artesanales">
+                <div class="product-txt">
+                    <h3>Galletas Artesanales</h3>
+                    <p>Galletas caseras con ingredientes de calidad</p>
+                    <p class="precio">3$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr3.png" alt="Crispetas">
+                <div class="product-txt">
+                    <h3>Crispetas</h3>
+                    <p>Deliciosas crispetas con diferentes sabores</p>
+                    <p class="precio">2$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr4.png" alt="Barras de Granola">
+                <div class="product-txt">
+                    <h3>Barras de Granola</h3>
+                    <p>Nutritivas y energéticas barras de granola</p>
+                    <p class="precio">4$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr5.png" alt="Gomitas">
+                <div class="product-txt">
+                    <h3>Gomitas</h3>
+                    <p>Gomitas en una variedad de sabores</p>
+                    <p class="precio">3$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr6.png" alt="Chicles">
+                <div class="product-txt">
+                    <h3>Chicles</h3>
+                    <p>Chicles con sabores duraderos</p>
+                    <p class="precio">1$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr7.png" alt="Pretzels">
+                <div class="product-txt">
+                    <h3>Pretzels</h3>
+                    <p>Salados y crujientes pretzels</p>
+                    <p class="precio">2$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr8.png" alt="Turrón">
+                <div class="product-txt">
+                    <h3>Turrón</h3>
+                    <p>Delicioso turrón con almendras</p>
+                    <p class="precio">6$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr9.png" alt="Caramelos">
+                <div class="product-txt">
+                    <h3>Caramelos</h3>
+                    <p>Caramelos en varios sabores</p>
+                    <p class="precio">2$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr10.png" alt="Pipas">
+                <div class="product-txt">
+                    <h3>Pipas</h3>
+                    <p>Pipas de girasol tostadas</p>
+                    <p class="precio">3$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr11.png" alt="Almendras">
+                <div class="product-txt">
+                    <h3>Almendras</h3>
+                    <p>Almendras crujientes y saladas</p>
+                    <p class="precio">4$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="11">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr12.png" alt="Mix de Frutos Secos">
+                <div class="product-txt">
+                    <h3>Mix de Frutos Secos</h3>
+                    <p>Mezcla de frutos secos seleccionados</p>
+                    <p class="precio">5$</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="12">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-2" id="load-more">Cargar Más</div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Política de Devoluciones</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Servicio al Cliente</h3>
+                <ul>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Seguimiento de Pedido</a></li>
+                    <li><a href="#">Opciones de Envío</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Conéctate con Nosotros</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Ubicación</h3>
+                <ul>
+                    <li><a href="#">Encuentra una Tienda</a></li>
+                    <li><a href="#">Nuestra Oficina</a></li>
+                    <li><a href="#">Horario de Atención</a></li>
+                    <li><a href="#">Mapa del Sitio</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
